@@ -1,0 +1,277 @@
+*{
+    font-family: 'Popping', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}@import url('https://fonts.googleapis.com/css2?family=Murecho:wght@100;400;500&family=Poppins:ital,wght@0,200;0,300;1,200&family=Roboto:wght@300&family=Rubik:ital@0;1&display=swap');
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.main-header{
+    display: flex;
+    align-items: center;
+}
+.main-header ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.invitation{
+    margin-top: 40px;
+    margin-left: 150px;
+    font-weight: bold;
+}
+.nav-bar{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.nav-bar li{
+    padding-left: 50px;
+}
+.log-sig{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 600px;
+}
+.log-sig h4{
+    margin-top: 10px;
+    padding-right: 50px;
+    font-weight: lighter;    
+}
+.log-sig button{
+    border-color: none;
+    background-color: black;
+    border-radius: 5px;
+    width: 112px;
+    height: 41px;
+    font-size: 15px;
+}
+.log-sig button a{
+    color: white;
+}
+.hero-section{
+    border: black solid 2px;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-top: 10px;
+    height: 380px;
+    width: 1600px;
+    color: white;
+}
+.hero-section h1{
+    margin-top: 70px;
+    margin-left: 70px;
+    font-weight: lighter;
+}
+.hero-section p{
+    margin-top: 20px;
+    margin-left: 70px;
+    width: 500px;
+}
+.hero-section input{
+    margin-top: 20px;
+    margin-left: 70px;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    border-color: none;
+}
+.hero-section button{
+    padding: 10px 20px;
+    margin-left: 10px;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    border-color: black;
+    color: white;
+    background: linear-gradient(0.25turn, #FB7B30,  #A831A5);
+}
+.hero-image{
+    position: relative;
+    bottom: 239px;
+    left: 900px;
+}
+.companys-bar{
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+.companys-bar img{
+    padding-left: 55px;
+}
+.first-section{
+    display: flex;
+}
+.first-section{
+    margin-top: 70px;
+    margin-left: 150px;
+}
+.right-image{
+    position: relative;
+    left: 245px;
+}
+.texts{
+    position: relative;
+    left: 63px;
+    top: 100px;
+}
+.texts h2{
+    position: relative;
+    left: 90px;
+    font-weight: lighter;
+    font-size: 38px;
+}
+.cash-icon{
+    position: relative;
+    bottom: 51px;
+    left: 417px;
+}
+.icon1{
+    position: relative;
+    left: 62px;
+    bottom: 39px;
+}
+.texts h3{
+    font-weight: lighter;
+    position: relative;
+    bottom: 78px;
+    left: 105px;
+}
+.texts p{
+    width: 420px;
+    position: relative;
+    left: 72px;
+    bottom: 62px;
+}
+.texts button{
+    padding: 10px 20px;
+    margin-left: 110px;
+    margin-top: 77;
+    height: 70px;
+    width: 300px;
+    border-radius: 9px;
+    border-color: white;
+    color: white;
+    background: linear-gradient(0.25turn, #FB7B30,  #A831A5);
+}
+.second-section{
+    border: black solid 2px;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-top: 100px;
+    height: 380px;
+    width: 1600px;
+    color: white;
+}
+.second-section h1{
+    margin-top: 70px;
+    margin-left: 70px;
+    font-weight: lighter;
+}
+.icon2{
+    position: relative;
+    top: 33px;
+    left: 66px;
+}
+.second-section p{
+    position: relative;
+    left: 100px;
+    top: 7px;
+}
+.signUp-image{
+    position: relative;
+    bottom: 300px;
+    left: 140px;
+}
+.sing-google{
+    position: relative;
+    bottom: 433px;
+    left: 66px;
+}
+.second-section button{
+    position: relative;
+    bottom: 455px;
+    left: 66px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    height: 55px;
+    width: 200px;
+    border-radius: 5px;
+    border-color: black;
+    color: white;
+    background: linear-gradient(0.25turn, #FB7B30,  #A831A5);
+}
+.third-section{
+    margin-top: 150px;
+    margin-left: 150px;
+    display: flex;
+}
+.img{
+    padding-right: 20px;
+}
+.img1{
+    padding-right: 20px;
+}
+.img2{
+    padding-right: 20px;
+}
+.footer{
+    display: flex;
+    border: black solid 2px;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-top: 100px;
+    height: 300px;
+    width: 1600px;
+    color: white;
+}
+.paragraph{
+    width: 400px;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+.paragraph img{
+    position: relative;
+    top: 20px;
+}
+.link1{
+    margin-left: 525px;
+    padding-top: 70px;
+}
+.link1 a{
+    color: white;
+    font-size: 15px;
+}
+.link2{
+    padding-top: 70px;
+    padding-left: 50px;
+}
+.link2 a{
+    color: white;
+    font-size: 15px;
+}
+.link3{
+    padding-top: 70px;
+    padding-left: 50px;
+}
+.link3 a{
+    color: white;
+    font-size: 15px;
+}
+.link4{
+    padding-top: 70px;
+    padding-left: 50px;
+}
+.link4 a{
+    color: white;
+    font-size: 15px;
+}

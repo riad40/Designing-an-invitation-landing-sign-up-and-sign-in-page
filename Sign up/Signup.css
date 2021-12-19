@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    font-family: 'Poppin', sans-serif;
+}@import url('https://fonts.googleapis.com/css2?family=Murecho:wght@100;400;500&family=Poppins:ital,wght@0,200;0,300;1,200&family=Roboto:wght@300&family=Rubik:ital@0;1&display=swap');
+body{
+    background-image: url('./Sign\ in\ -\ up\ Background.png');
+}
+.image{
+    position: relative;
+    top: 85px;
+    left: 350px;
+    border: black solid 7px;
+    background-color: white;
+    border-radius: 5px;
+    width: 1200px;
+    height: 790px;
+}
+.input1{
+    position: relative;
+    bottom: 555px;
+    left: 978px;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    border-color: black;
+}
+.input2{
+    position: relative;
+    bottom: 515px;
+    left: 978px;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    border-color: black;
+}
+.input3{
+    position: relative;
+    bottom: 475px;
+    left: 978px;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    border-color: black;
+}
+.input4{
+    position: relative;
+    bottom: 437px;
+    left: 978px;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    border-color: black;
+}
+button{
+    position: relative;
+    bottom: 305px;
+    left: 671px;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border-color: black;
+    background: linear-gradient(0.25turn, #FB7B30,  #A831A5);
+    color: white;
+    font-size: 20px;
+}
