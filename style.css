@@ -216,12 +216,22 @@ a{
 }
 .img{
     padding-right: 20px;
+    padding-top: 20px;
 }
 .img1{
     padding-right: 20px;
+    padding-top: 20px;
 }
 .img2{
     padding-right: 20px;
+    padding-top: 20px;
+}
+.img3{
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.space-content{
+    padding-top: 20px;
 }
 .footer{
     display: flex;
@@ -274,4 +284,9 @@ a{
 .link4 a{
     color: white;
     font-size: 15px;
+}
+.last-line{
+    margin-left: 400px; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
 }
