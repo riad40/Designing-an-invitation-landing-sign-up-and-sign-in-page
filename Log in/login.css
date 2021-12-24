@@ -5,38 +5,28 @@
 body{
     background-image: url('./Sign\ in\ -\ up\ Background.png');
 }
-.image{
-    position: relative;
-    top: 85px;
-    left: 350px;
-    border: black solid 7px;
-    background-color: white;
-    border-radius: 5px;
-    width: 1200px;
-    height: 790px;
+.container{
+    margin: 25px 0px 0px 0px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
 .input1{
-    position: relative;
-    bottom: 453px;
-    left: 978px;
+    margin: 250px 0px 0px 20px;
     width: 400px;
     height: 50px;
     border-radius: 20px;
     border-color: black;
 }
 .input2{
-    position: relative;
-    bottom: 386px;
-    left: 978px;
+    margin: 50px 0px 0px 20px;
     width: 400px;
     height: 50px;
     border-radius: 20px;
     border-color: black;
 }
 button{
-    position: relative;
-    bottom: 264px;
-    left: 671px;
+    margin: 50px 0px 0px 125px;
     width: 200px;
     height: 50px;
     border-radius: 20px;
@@ -44,4 +34,17 @@ button{
     background: linear-gradient(0.25turn, #FB7B30,  #A831A5);
     color: white;
     font-size: 20px;
+}
+@media (max-width: 800px) {
+    .image{
+        display: none;
+    }
+}
+@media (max-width: 400px) {
+    .input1, .input2{
+        width: 300px;
+    }
+    button{
+        margin-left: 70px;
+    }
 }
